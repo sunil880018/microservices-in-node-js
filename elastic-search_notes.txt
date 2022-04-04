@@ -1,0 +1,20 @@
+ELK ---> stands for  Elastic-search , Logstash , Kibana
+
+1.Elastic-search (Database)-> Elastic-search takes data from Logstash and store those data in index form for 
+searching and gives to Kibana to show on the Dashboard
+
+2.Logstash ---> Logstash is a light-weight, open-source, server-side data 
+             processing pipeline that allows you to collect data from a variety of sources.
+
+             Logstash takes data from your applications and give to Elastic-search
+
+3.Kibana ----> Kibana is nothing but a Dashboard to display data which is  coming from Elastic-search
+
+----------------- working ----------------
+
+
+applications --> File Location --->FileBeat ---> Logstash ---->Elastic-search ----> Kibana
+
+4.FileBeat-->Filebeats (part of the elastic beats packages) to read data from a 
+target file and push it to a logstash instance which then converts the data to desired format 
+and then push it into the Elasticsearch DB.

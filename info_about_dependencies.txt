@@ -1,0 +1,10 @@
+1.body-parser: It is a Node.js body parsing middleware, it parses incoming
+ request bodies in a middleware before your handlers and is available under req.body property.
+
+
+2.axios: A promise based HTTP client for browser and Node Js.
+
+3.nodemon: A tool used for Node Js development as it provides hot-reloading for any file change.
+
+
+4.mongoose: A MongoDB Object modelling tool designed to work in an asynchronous environment.
